@@ -76,7 +76,7 @@ i.fab {
     display: flex;
     align-items: center;
     height: 35px;
-    width: 350px;
+    width: 300px;
 }
 
 #phone {
@@ -88,7 +88,7 @@ i.fab {
 }
 
 #at {
-    width: 290px;
+    width: 190px;
 }
 
 .pictureHolder {
