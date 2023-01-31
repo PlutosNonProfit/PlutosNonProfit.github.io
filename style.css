@@ -50,7 +50,7 @@
     width: 35px;
     height: 35px;
     margin: 8px;
-    border-radius: 50px;
+    border-radius: 55px;
     /* from scale choose visible behind the buttont == opaque scrolling with the scrollbar*/
     background-color: rgba(0, 0, 0, 0.082);
 }
