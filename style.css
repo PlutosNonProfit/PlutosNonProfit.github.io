@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    /*background-color: aquamarine;*/
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    height: 150px;
+    /*background-color: blueviolet;*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: bisque;*/
+}
+
+
+.stripe {
+    width: 1150px;
+    height: 2px;
+    background-color: black;
+}
+
+.buttonHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /*background-color: chartreuse;*/
+}
+
+.myButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 350px;*/
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    border-radius: 50px;
+    /* from scale choose visible behind the buttont == opaque scrolling with the scrollbar*/
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.myButtons:hover {
+    width: auto;
+}
+
+i.fas {
+    margin: 7px;
+    font-size: 22px;
+    /*background-color: darkcyan;*/
+}
+
+i.fab {
+    margin: 11px;
+    font-size: 22px;
+    /*background-color: darkcyan;*/
+}
+
+.buttonTitle {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 300px;
+}
+
+#phone {
+    width: 125px;
+}
+
+#facebook {
+    width: 300px;
+}
+
+#at {
+    width: 190px;
+}
+
+.pictureHolder {
+    display: flex;
+    position: relative;
+    width: 900px;
+    margin: 50px;
+    box-shadow: 0 25px 50px 0;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.picture {
+    width: 900px;
+}
+
+.textHolder {
+    display: flex;
+    position: absolute;
+    width: 900px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.text {
+    color: white;
+    margin: 15px;
+}
+
+body {
+    /* background-image: url('background/white-splash-acrylic.jpg');*/
+    /*background-image: url('background/clouds.jpg');*/
+    background-color: antiquewhite;
+    background-repeat: repeat;
+    background-size: 3000px;
+}
